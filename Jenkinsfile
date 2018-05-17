@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh ''' cat README.md && echo hello world
+        sh ''' cat README.md && echo hello world &&
 cat c-hello.c'''
       }
     }
