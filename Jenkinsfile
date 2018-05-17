@@ -4,7 +4,7 @@ pipeline {
     stage('build') {
       steps {
         sh ''' cat README.md && echo hello world
-gcc c-hello.c'''
+cat c-hello.c'''
       }
     }
     stage('cleanup') {
