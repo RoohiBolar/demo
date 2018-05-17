@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'cat README.md && hello world'
+        sh 'cat README.md && echo hello world'
       }
     }
     stage('cleanup') {
