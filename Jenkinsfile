@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'apt-get install php7 at README.md && echo hello world'
+        sh ' cat README.md && echo hello world'
       }
     }
     stage('cleanup') {
